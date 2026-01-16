@@ -1,0 +1,81 @@
+:root {
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background-color: #f5f7fb;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f7fb;
+}
+
+.app-layout {
+  min-height: 100vh;
+}
+
+.app-sider {
+  background: #0b2a59;
+}
+
+.logo {
+  padding: 24px 20px 16px;
+  color: #fff;
+}
+
+.logo-title {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.logo-subtitle {
+  display: block;
+  opacity: 0.7;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 0 24px;
+  box-shadow: 0 2px 8px rgba(15, 35, 95, 0.08);
+}
+
+.app-header h4 {
+  margin: 0;
+}
+
+.app-content {
+  padding: 24px;
+}
+
+.stat-card {
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ffffff 0%, #f1f7ff 100%);
+}
+
+.stat-title {
+  font-size: 14px;
+  color: #4f5e7b;
+}
+
+.stat-value {
+  margin: 8px 0 4px;
+  color: #12326b;
+}
+
+.summary-row {
+  margin-top: 12px;
+}
+
+.table-card {
+  margin-top: 16px;
+}
+
+.ant-layout-sider .ant-menu-dark {
+  background: #0b2a59;
+}
+
+.ant-layout-sider .ant-menu-dark .ant-menu-item-selected {
+  background-color: #1e4aa7;
+}
